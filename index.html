@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Distribution</title>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script>
+    function SubForm (){
+        $.ajax({
+            url:'https://api.apispreadsheets.com/data/SpTHGcz5MQWS3JuJ/',
+            type:'post',
+            data:$("#myForm").serializeArray(),
+            success: function(){
+              alert("Form Data Submitted :)")
+            },
+            error: function(){
+              alert("There was an error :(")
+            }
+        });
+    }
+    </script>
+</head>
+<body>
+  
+  
+  <form id="myForm">
+    <h1>VC Distribution</h1>
+    <label>Full Name</label>
+    <br/>
+    <input name="full_name" />
+    <br/>
+    <label>Date</label>
+    <br/>
+    <input type="date" id="Date" name="Date" />
+    <br>
+    <label>Day</label>
+    <br/>
+    <input name="day"/>
+    <br/>
+    <p>
+    <label>101</label>
+    <input type="radio" id="101" name="101" value="DEP" /> DEP
+    <input type="radio" id="101" name="101" value="DS" /> DS
+    <input type="radio" id="101" name="101" value="FS" /> FS
+    <input type="radio" id="101" name="101" value="LS" /> LS
+    <input type="radio" id="101" name="101" value="WS" /> WS
+    <label>/</label>
+    <label>101 Remark</label>
+    &nbsp;
+    <input class="mywidth" id="101 Remark" name="101 Remark">
+    <br/>
+    </p>
+
+    <p>
+      <label>102</label>
+      <input type="radio" id="102" name="102" value="DEP" /> DEP
+      <input type="radio" id="102" name="102" value="DS" /> DS
+      <input type="radio" id="102" name="102" value="FS" /> FS
+      <input type="radio" id="102" name="102" value="LS" /> LS
+      <input type="radio" id="102" name="102" value="WS" /> WS
+      <label>/</label>
+      <label>102 Remark</label>
+      &nbsp;
+      <input class="mywidth" id="102 Remark" name="102 Remark">
+
+      <br/>
+      </p>
+
+
+      <p>
+        <label>103</label>
+        <input type="radio" id="103" name="103" value="DEP" /> DEP
+        <input type="radio" id="103" name="103" value="DS" /> DS
+        <input type="radio" id="103" name="103" value="FS" /> FS
+        <input type="radio" id="103" name="103" value="LS" /> LS
+        <input type="radio" id="103" name="103" value="WS" /> WS
+        <label>/</label>
+        <label>103 Remark</label>
+        &nbsp;
+        <input class="mywidth" id="103 Remark" name="103 Remark">
+        <br/>
+        </p>
+
+        <p>
+          <label>104</label>
+          <input type="radio" id="104" name="104" value="DEP" /> DEP
+          <input type="radio" id="104" name="104" value="DS" /> DS
+          <input type="radio" id="104" name="104" value="FS" /> FS
+          <input type="radio" id="104" name="104" value="LS" /> LS
+          <input type="radio" id="104" name="104" value="WS" /> WS
+          <label>/</label>
+          <label>104 Remark</label>
+          &nbsp;
+          <input class="mywidth" id="104 Remark" name="104 Remark">
+          <br/>
+          </p>
+
+          <p>
+            <label>105</label>
+            <input type="radio" id="105" name="105" value="DEP" /> DEP
+            <input type="radio" id="105" name="105" value="DS" /> DS
+            <input type="radio" id="105" name="105" value="FS" /> FS
+            <input type="radio" id="105" name="105" value="LS" /> LS
+            <input type="radio" id="105" name="105" value="WS" /> WS
+            <label>/</label>
+            <label>105 Remark</label>
+            &nbsp;
+            <input class="mywidth" id="105 Remark" name="105 Remark">
+            <br/>
+            </p>
+
+            <p>
+              <label>106</label>
+              <input type="radio" id="106" name="106" value="DEP" /> DEP
+              <input type="radio" id="106" name="106" value="DS" /> DS
+              <input type="radio" id="106" name="106" value="FS" /> FS
+              <input type="radio" id="106" name="106" value="LS" /> LS
+              <input type="radio" id="106" name="106" value="WS" /> WS
+              <label>/</label>
+              <label>106 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="106 Remark" name="106 Remark">
+
+              <br/>
+              </p>
+
+            <p>
+              <label>107</label>
+              <input type="radio" id="107" name="107" value="DEP" /> DEP
+              <input type="radio" id="107" name="107" value="DS" /> DS
+              <input type="radio" id="107" name="107" value="FS" /> FS
+              <input type="radio" id="107" name="107" value="LS" /> LS
+              <input type="radio" id="107" name="107" value="WS" /> WS
+              <label>/</label>
+              <label>106 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="107 Remark" name="107 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>108</label>
+              <input type="radio" id="108" name="108" value="DEP" /> DEP
+              <input type="radio" id="108" name="108" value="DS" /> DS
+              <input type="radio" id="108" name="108" value="FS" /> FS
+              <input type="radio" id="108" name="108" value="LS" /> LS
+              <input type="radio" id="108" name="108" value="WS" /> WS
+              <label>/</label>
+              <label>108 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="108 Remark" name="108 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>109</label>
+              <input type="radio" id="109" name="109" value="DEP" /> DEP
+              <input type="radio" id="109" name="109" value="DS" /> DS
+              <input type="radio" id="109" name="109" value="FS" /> FS
+              <input type="radio" id="109" name="109" value="LS" /> LS
+              <input type="radio" id="109" name="109" value="WS" /> WS
+              <label>/</label>
+              <label>109 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="109 Remark" name="109 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>110</label>
+              <input type="radio" id="110" name="110" value="DEP" /> DEP
+              <input type="radio" id="110" name="110" value="DS" /> DS
+              <input type="radio" id="110" name="110" value="FS" /> FS
+              <input type="radio" id="110" name="110" value="LS" /> LS
+              <input type="radio" id="110" name="110" value="WS" /> WS
+              <label>/</label>
+              <label>110 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="110 Remark" name="110 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>111</label>
+              <input type="radio" id="111" name="111" value="DEP" /> DEP
+              <input type="radio" id="111" name="111" value="DS" /> DS
+              <input type="radio" id="111" name="111" value="FS" /> FS
+              <input type="radio" id="111" name="111" value="LS" /> LS
+              <input type="radio" id="111" name="111" value="WS" /> WS
+              <label>/</label>
+              <label>111 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="111 Remark" name="111 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>112</label>
+              <input type="radio" id="112" name="112" value="DEP" /> DEP
+              <input type="radio" id="112" name="112" value="DS" /> DS
+              <input type="radio" id="112" name="112" value="FS" /> FS
+              <input type="radio" id="112" name="112" value="LS" /> LS
+              <input type="radio" id="112" name="112" value="WS" /> WS
+              <label>/</label>
+              <label>112 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="112 Remark" name="112 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>113</label>
+              <input type="radio" id="113" name="113" value="DEP" /> DEP
+              <input type="radio" id="113" name="113" value="DS" /> DS
+              <input type="radio" id="113" name="113" value="FS" /> FS
+              <input type="radio" id="113" name="113" value="LS" /> LS
+              <input type="radio" id="113" name="113" value="WS" /> WS
+              <label>/</label>
+              <label>113 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="113 Remark" name="113 Remark">
+              <br>
+            </p>
+            
+            <p>
+              <label>114</label>
+              <input type="radio" id="114" name="114" value="DEP" /> DEP
+              <input type="radio" id="114" name="114" value="DS" /> DS
+              <input type="radio" id="114" name="114" value="FS" /> FS
+              <input type="radio" id="114" name="114" value="LS" /> LS
+              <input type="radio" id="114" name="114" value="WS" /> WS
+              <label>/</label>
+              <label>114 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="114 Remark" name="114 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>115</label>
+              <input type="radio" id="115" name="115" value="DEP" /> DEP
+              <input type="radio" id="115" name="115" value="DS" /> DS
+              <input type="radio" id="115" name="115" value="FS" /> FS
+              <input type="radio" id="115" name="115" value="LS" /> LS
+              <input type="radio" id="115" name="115" value="WS" /> WS
+              <label>/</label>
+              <label>115 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="115 Remark" name="115 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>116</label>
+              <input type="radio" id="116" name="116" value="DEP" /> DEP
+              <input type="radio" id="116" name="116" value="DS" /> DS
+              <input type="radio" id="116" name="116" value="FS" /> FS
+              <input type="radio" id="116" name="116" value="LS" /> LS
+              <input type="radio" id="116" name="116" value="WS" /> WS
+              <label>/</label>
+              <label>116 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="116 Remark" name="116 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>117</label>
+              <input type="radio" id="117" name="117" value="DEP" /> DEP
+              <input type="radio" id="117" name="117" value="DS" /> DS
+              <input type="radio" id="117" name="117" value="FS" /> FS
+              <input type="radio" id="117" name="117" value="LS" /> LS
+              <input type="radio" id="117" name="117" value="WS" /> WS
+              <label>/</label>
+              <label>117 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="117 Remark" name="117 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>118</label>
+              <input type="radio" id="118" name="118" value="DEP" /> DEP
+              <input type="radio" id="118" name="118" value="DS" /> DS
+              <input type="radio" id="118" name="118" value="FS" /> FS
+              <input type="radio" id="118" name="118" value="LS" /> LS
+              <input type="radio" id="118" name="118" value="WS" /> WS
+              <label>/</label>
+              <label>118 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="118 Remark" name="118 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>119</label>
+              <input type="radio" id="119" name="119" value="DEP" /> DEP
+              <input type="radio" id="119" name="119" value="DS" /> DS
+              <input type="radio" id="119" name="119" value="FS" /> FS
+              <input type="radio" id="119" name="119" value="LS" /> LS
+              <input type="radio" id="119" name="119" value="WS" /> WS
+              <label>/</label>
+              <label>119 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="119 Remark" name="119 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>120</label>
+              <input type="radio" id="120" name="120" value="DEP" /> DEP
+              <input type="radio" id="120" name="120" value="DS" /> DS
+              <input type="radio" id="120" name="120" value="FS" /> FS
+              <input type="radio" id="120" name="120" value="LS" /> LS
+              <input type="radio" id="120" name="120" value="WS" /> WS
+              <label>/</label>
+              <label>120 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="120 Remark" name="120 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>121</label>
+              <input type="radio" id="121" name="121" value="DEP" /> DEP
+              <input type="radio" id="121" name="121" value="DS" /> DS
+              <input type="radio" id="121" name="121" value="FS" /> FS
+              <input type="radio" id="121" name="121" value="LS" /> LS
+              <input type="radio" id="121" name="121" value="WS" /> WS
+              <label>/</label>
+              <label>121 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="121 Remark" name="121 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>122</label>
+              <input type="radio" id="122" name="122" value="DEP" /> DEP
+              <input type="radio" id="122" name="122" value="DS" /> DS
+              <input type="radio" id="122" name="122" value="FS" /> FS
+              <input type="radio" id="122" name="122" value="LS" /> LS
+              <input type="radio" id="122" name="122" value="WS" /> WS
+              <label>/</label>
+              <label>122 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="122 Remark" name="122 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>123</label>
+              <input type="radio" id="123" name="123" value="DEP" /> DEP
+              <input type="radio" id="123" name="123" value="DS" /> DS
+              <input type="radio" id="123" name="123" value="FS" /> FS
+              <input type="radio" id="123" name="123" value="LS" /> LS
+              <input type="radio" id="123" name="123" value="WS" /> WS
+              <label>/</label>
+              <label>123 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="123 Remark" name="123 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>124</label>
+              <input type="radio" id="124" name="124" value="DEP" /> DEP
+              <input type="radio" id="124" name="124" value="DS" /> DS
+              <input type="radio" id="124" name="124" value="FS" /> FS
+              <input type="radio" id="124" name="124" value="LS" /> LS
+              <input type="radio" id="124" name="124" value="WS" /> WS
+              <label>/</label>
+              <label>124 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="124 Remark" name="124 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>125</label>
+              <input type="radio" id="125" name="125" value="DEP" /> DEP
+              <input type="radio" id="125" name="125" value="DS" /> DS
+              <input type="radio" id="125" name="125" value="FS" /> FS
+              <input type="radio" id="125" name="125" value="LS" /> LS
+              <input type="radio" id="125" name="125" value="WS" /> WS
+              <label>/</label>
+              <label>125 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="125 Remark" name="125 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>126</label>
+              <input type="radio" id="126" name="126" value="DEP" /> DEP
+              <input type="radio" id="126" name="126" value="DS" /> DS
+              <input type="radio" id="126" name="126" value="FS" /> FS
+              <input type="radio" id="126" name="126" value="LS" /> LS
+              <input type="radio" id="126" name="126" value="WS" /> WS
+              <label>/</label>
+              <label>126 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="126 Remark" name="126 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>127</label>
+              <input type="radio" id="127" name="127" value="DEP" /> DEP
+              <input type="radio" id="127" name="127" value="DS" /> DS
+              <input type="radio" id="127" name="127" value="FS" /> FS
+              <input type="radio" id="127" name="127" value="LS" /> LS
+              <input type="radio" id="127" name="127" value="WS" /> WS
+              <label>/</label>
+              <label>127 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="127 Remark" name="127 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>128</label>
+              <input type="radio" id="128" name="128" value="DEP" /> DEP
+              <input type="radio" id="128" name="128" value="DS" /> DS
+              <input type="radio" id="128" name="128" value="FS" /> FS
+              <input type="radio" id="128" name="128" value="LS" /> LS
+              <input type="radio" id="128" name="128" value="WS" /> WS
+              <label>/</label>
+              <label>126 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="128 Remark" name="128 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>129</label>
+              <input type="radio" id="129" name="129" value="DEP" /> DEP
+              <input type="radio" id="129" name="129" value="DS" /> DS
+              <input type="radio" id="129" name="129" value="FS" /> FS
+              <input type="radio" id="129" name="129" value="LS" /> LS
+              <input type="radio" id="129" name="129" value="WS" /> WS
+              <label>/</label>
+              <label>126 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="129 Remark" name="129 Remark">
+              <br>
+            </p>
+
+
+            <h1>Next Level</h1>
+
+            <p>
+              <label>201</label>
+              <input type="radio" id="201" name="201" value="DEP" /> DEP
+              <input type="radio" id="201" name="201" value="DS" /> DS
+              <input type="radio" id="201" name="201" value="FS" /> FS
+              <input type="radio" id="201" name="201" value="LS" /> LS
+              <input type="radio" id="201" name="201" value="WS" /> WS
+              <label>/</label>
+              <label>201 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="201 Remark" name="201 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>202</label>
+              <input type="radio" id="202" name="202" value="DEP" /> DEP
+              <input type="radio" id="202" name="202" value="DS" /> DS
+              <input type="radio" id="202" name="202" value="FS" /> FS
+              <input type="radio" id="202" name="202" value="LS" /> LS
+              <input type="radio" id="202" name="202" value="WS" /> WS
+              <label>/</label>
+              <label>202 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="202 Remark" name="202 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>203</label>
+              <input type="radio" id="203" name="203" value="DEP" /> DEP
+              <input type="radio" id="203" name="203" value="DS" /> DS
+              <input type="radio" id="203" name="203" value="FS" /> FS
+              <input type="radio" id="203" name="203" value="LS" /> LS
+              <input type="radio" id="203" name="203" value="WS" /> WS
+              <label>/</label>
+              <label>203 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="203 Remark" name="203 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>204</label>
+              <input type="radio" id="204" name="204" value="DEP" /> DEP
+              <input type="radio" id="204" name="204" value="DS" /> DS
+              <input type="radio" id="204" name="204" value="FS" /> FS
+              <input type="radio" id="204" name="204" value="LS" /> LS
+              <input type="radio" id="204" name="204" value="WS" /> WS
+              <label>/</label>
+              <label>204 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="204 Remark" name="204 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>205</label>
+              <input type="radio" id="205" name="205" value="DEP" /> DEP
+              <input type="radio" id="205" name="205" value="DS" /> DS
+              <input type="radio" id="205" name="205" value="FS" /> FS
+              <input type="radio" id="205" name="205" value="LS" /> LS
+              <input type="radio" id="205" name="205" value="WS" /> WS
+              <label>/</label>
+              <label>205 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="205 Remark" name="205 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>206</label>
+              <input type="radio" id="206" name="206" value="DEP" /> DEP
+              <input type="radio" id="206" name="206" value="DS" /> DS
+              <input type="radio" id="206" name="206" value="FS" /> FS
+              <input type="radio" id="206" name="206" value="LS" /> LS
+              <input type="radio" id="206" name="206" value="WS" /> WS
+              <label>/</label>
+              <label>206 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="206 Remark" name="206 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>207</label>
+              <input type="radio" id="207" name="207" value="DEP" /> DEP
+              <input type="radio" id="207" name="207" value="DS" /> DS
+              <input type="radio" id="207" name="207" value="FS" /> FS
+              <input type="radio" id="207" name="207" value="LS" /> LS
+              <input type="radio" id="207" name="207" value="WS" /> WS
+              <label>/</label>
+              <label>207 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="207 Remark" name="207 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>208</label>
+              <input type="radio" id="208" name="208" value="DEP" /> DEP
+              <input type="radio" id="208" name="208" value="DS" /> DS
+              <input type="radio" id="208" name="208" value="FS" /> FS
+              <input type="radio" id="208" name="208" value="LS" /> LS
+              <input type="radio" id="208" name="208" value="WS" /> WS
+              <label>/</label>
+              <label>208 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="208 Remark" name="208 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>209</label>
+              <input type="radio" id="209" name="209" value="DEP" /> DEP
+              <input type="radio" id="209" name="209" value="DS" /> DS
+              <input type="radio" id="209" name="209" value="FS" /> FS
+              <input type="radio" id="209" name="209" value="LS" /> LS
+              <input type="radio" id="209" name="209" value="WS" /> WS
+              <label>/</label>
+              <label>209 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="209 Remark" name="209 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>210</label>
+              <input type="radio" id="210" name="210" value="DEP" /> DEP
+              <input type="radio" id="210" name="210" value="DS" /> DS
+              <input type="radio" id="210" name="210" value="FS" /> FS
+              <input type="radio" id="210" name="210" value="LS" /> LS
+              <input type="radio" id="210" name="210" value="WS" /> WS
+              <label>/</label>
+              <label>210 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="210 Remark" name="210 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>211</label>
+              <input type="radio" id="211" name="211" value="DEP" /> DEP
+              <input type="radio" id="211" name="211" value="DS" /> DS
+              <input type="radio" id="211" name="211" value="FS" /> FS
+              <input type="radio" id="211" name="211" value="LS" /> LS
+              <input type="radio" id="211" name="211" value="WS" /> WS
+              <label>/</label>
+              <label>211 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="211 Remark" name="211 Remark">
+              <br>
+            </p>
+            
+            <p>
+              <label>212</label>
+              <input type="radio" id="212" name="212" value="DEP" /> DEP
+              <input type="radio" id="212" name="212" value="DS" /> DS
+              <input type="radio" id="212" name="212" value="FS" /> FS
+              <input type="radio" id="212" name="212" value="LS" /> LS
+              <input type="radio" id="212" name="212" value="WS" /> WS
+              <label>/</label>
+              <label>212 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="212 Remark" name="212 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>213</label>
+              <input type="radio" id="213" name="213" value="DEP" /> DEP
+              <input type="radio" id="213" name="213" value="DS" /> DS
+              <input type="radio" id="213" name="213" value="FS" /> FS
+              <input type="radio" id="213" name="213" value="LS" /> LS
+              <input type="radio" id="213" name="213" value="WS" /> WS
+              <label>/</label>
+              <label>213 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="213 Remark" name="213 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>214</label>
+              <input type="radio" id="214" name="214" value="DEP" /> DEP
+              <input type="radio" id="214" name="214" value="DS" /> DS
+              <input type="radio" id="214" name="214" value="FS" /> FS
+              <input type="radio" id="214" name="214" value="LS" /> LS
+              <input type="radio" id="214" name="214" value="WS" /> WS
+              <label>/</label>
+              <label>214 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="214 Remark" name="214 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>215</label>
+              <input type="radio" id="215" name="215" value="DEP" /> DEP
+              <input type="radio" id="215" name="215" value="DS" /> DS
+              <input type="radio" id="215" name="215" value="FS" /> FS
+              <input type="radio" id="215" name="215" value="LS" /> LS
+              <input type="radio" id="215" name="215" value="WS" /> WS
+              <label>/</label>
+              <label>215 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="215 Remark" name="215 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>216</label>
+              <input type="radio" id="216" name="216" value="DEP" /> DEP
+              <input type="radio" id="216" name="216" value="DS" /> DS
+              <input type="radio" id="216" name="216" value="FS" /> FS
+              <input type="radio" id="216" name="216" value="LS" /> LS
+              <input type="radio" id="216" name="216" value="WS" /> WS
+              <label>/</label>
+              <label>216 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="216 Remark" name="216 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>217</label>
+              <input type="radio" id="217" name="217" value="DEP" /> DEP
+              <input type="radio" id="217" name="217" value="DS" /> DS
+              <input type="radio" id="217" name="217" value="FS" /> FS
+              <input type="radio" id="217" name="217" value="LS" /> LS
+              <input type="radio" id="217" name="217" value="WS" /> WS
+              <label>/</label>
+              <label>217 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="217 Remark" name="217 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>218</label>
+              <input type="radio" id="218" name="218" value="DEP" /> DEP
+              <input type="radio" id="218" name="218" value="DS" /> DS
+              <input type="radio" id="218" name="218" value="FS" /> FS
+              <input type="radio" id="218" name="218" value="LS" /> LS
+              <input type="radio" id="218" name="218" value="WS" /> WS
+              <label>/</label>
+              <label>218 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="218 Remark" name="218 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>219</label>
+              <input type="radio" id="219" name="219" value="DEP" /> DEP
+              <input type="radio" id="219" name="219" value="DS" /> DS
+              <input type="radio" id="219" name="219" value="FS" /> FS
+              <input type="radio" id="219" name="219" value="LS" /> LS
+              <input type="radio" id="219" name="219" value="WS" /> WS
+              <label>/</label>
+              <label>219 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="219 Remark" name="219 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>220</label>
+              <input type="radio" id="220" name="220" value="DEP" /> DEP
+              <input type="radio" id="220" name="220" value="DS" /> DS
+              <input type="radio" id="220" name="220" value="FS" /> FS
+              <input type="radio" id="220" name="220" value="LS" /> LS
+              <input type="radio" id="220" name="220" value="WS" /> WS
+              <label>/</label>
+              <label>220 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="220 Remark" name="220 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>221</label>
+              <input type="radio" id="221" name="221" value="DEP" /> DEP
+              <input type="radio" id="221" name="221" value="DS" /> DS
+              <input type="radio" id="221" name="221" value="FS" /> FS
+              <input type="radio" id="221" name="221" value="LS" /> LS
+              <input type="radio" id="221" name="221" value="WS" /> WS
+              <label>/</label>
+              <label>221 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="221 Remark" name="221 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>222</label>
+              <input type="radio" id="222" name="222" value="DEP" /> DEP
+              <input type="radio" id="222" name="222" value="DS" /> DS
+              <input type="radio" id="222" name="222" value="FS" /> FS
+              <input type="radio" id="222" name="222" value="LS" /> LS
+              <input type="radio" id="222" name="222" value="WS" /> WS
+              <label>/</label>
+              <label>222 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="222 Remark" name="222 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>223</label>
+              <input type="radio" id="223" name="223" value="DEP" /> DEP
+              <input type="radio" id="223" name="223" value="DS" /> DS
+              <input type="radio" id="223" name="223" value="FS" /> FS
+              <input type="radio" id="223" name="223" value="LS" /> LS
+              <input type="radio" id="223" name="223" value="WS" /> WS
+              <label>/</label>
+              <label>223 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="223 Remark" name="223 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>224</label>
+              <input type="radio" id="224" name="224" value="DEP" /> DEP
+              <input type="radio" id="224" name="224" value="DS" /> DS
+              <input type="radio" id="224" name="224" value="FS" /> FS
+              <input type="radio" id="224" name="224" value="LS" /> LS
+              <input type="radio" id="224" name="224" value="WS" /> WS
+              <label>/</label>
+              <label>224 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="224 Remark" name="224 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>225</label>
+              <input type="radio" id="225" name="225" value="DEP" /> DEP
+              <input type="radio" id="225" name="225" value="DS" /> DS
+              <input type="radio" id="225" name="225" value="FS" /> FS
+              <input type="radio" id="225" name="225" value="LS" /> LS
+              <input type="radio" id="225" name="225" value="WS" /> WS
+              <label>/</label>
+              <label>225 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="225 Remark" name="225 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>226</label>
+              <input type="radio" id="226" name="226" value="DEP" /> DEP
+              <input type="radio" id="226" name="226" value="DS" /> DS
+              <input type="radio" id="226" name="226" value="FS" /> FS
+              <input type="radio" id="226" name="226" value="LS" /> LS
+              <input type="radio" id="226" name="226" value="WS" /> WS
+              <label>/</label>
+              <label>226 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="226 Remark" name="226 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>227</label>
+              <input type="radio" id="227" name="227" value="DEP" /> DEP
+              <input type="radio" id="227" name="227" value="DS" /> DS
+              <input type="radio" id="227" name="227" value="FS" /> FS
+              <input type="radio" id="227" name="227" value="LS" /> LS
+              <input type="radio" id="227" name="227" value="WS" /> WS
+              <label>/</label>
+              <label>227 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="227 Remark" name="227 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>228</label>
+              <input type="radio" id="228" name="228" value="DEP" /> DEP
+              <input type="radio" id="228" name="228" value="DS" /> DS
+              <input type="radio" id="228" name="228" value="FS" /> FS
+              <input type="radio" id="228" name="228" value="LS" /> LS
+              <input type="radio" id="228" name="228" value="WS" /> WS
+              <label>/</label>
+              <label>228 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="228 Remark" name="228 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>229</label>
+              <input type="radio" id="229" name="229" value="DEP" /> DEP
+              <input type="radio" id="229" name="229" value="DS" /> DS
+              <input type="radio" id="229" name="229" value="FS" /> FS
+              <input type="radio" id="229" name="229" value="LS" /> LS
+              <input type="radio" id="229" name="229" value="WS" /> WS
+              <label>/</label>
+              <label>229 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="229 Remark" name="229 Remark">
+              <br>
+            </p>
+
+            <h1>Next Level</h1>
+
+            <p>
+              <label>301</label>
+              <input type="radio" id="301" name="301" value="DEP" /> DEP
+              <input type="radio" id="301" name="301" value="DS" /> DS
+              <input type="radio" id="301" name="301" value="FS" /> FS
+              <input type="radio" id="301" name="301" value="LS" /> LS
+              <input type="radio" id="301" name="301" value="WS" /> WS
+              <label>/</label>
+              <label>301 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="301 Remark" name="301 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>302</label>
+              <input type="radio" id="302" name="302" value="DEP" /> DEP
+              <input type="radio" id="302" name="302" value="DS" /> DS
+              <input type="radio" id="302" name="302" value="FS" /> FS
+              <input type="radio" id="302" name="302" value="LS" /> LS
+              <input type="radio" id="302" name="302" value="WS" /> WS
+              <label>/</label>
+              <label>302 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="302 Remark" name="302 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>303</label>
+              <input type="radio" id="303" name="303" value="DEP" /> DEP
+              <input type="radio" id="303" name="303" value="DS" /> DS
+              <input type="radio" id="303" name="303" value="FS" /> FS
+              <input type="radio" id="303" name="303" value="LS" /> LS
+              <input type="radio" id="303" name="303" value="WS" /> WS
+              <label>/</label>
+              <label>303 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="303 Remark" name="303 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>304</label>
+              <input type="radio" id="304" name="304" value="DEP" /> DEP
+              <input type="radio" id="304" name="304" value="DS" /> DS
+              <input type="radio" id="304" name="304" value="FS" /> FS
+              <input type="radio" id="304" name="304" value="LS" /> LS
+              <input type="radio" id="304" name="304" value="WS" /> WS
+              <label>/</label>
+              <label>304 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="304 Remark" name="304 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>305</label>
+              <input type="radio" id="305" name="305" value="DEP" /> DEP
+              <input type="radio" id="305" name="305" value="DS" /> DS
+              <input type="radio" id="305" name="305" value="FS" /> FS
+              <input type="radio" id="305" name="305" value="LS" /> LS
+              <input type="radio" id="305" name="305" value="WS" /> WS
+              <label>/</label>
+              <label>305 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="305 Remark" name="305 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>306</label>
+              <input type="radio" id="306" name="306" value="DEP" /> DEP
+              <input type="radio" id="306" name="306" value="DS" /> DS
+              <input type="radio" id="306" name="306" value="FS" /> FS
+              <input type="radio" id="306" name="306" value="LS" /> LS
+              <input type="radio" id="306" name="306" value="WS" /> WS
+              <label>/</label>
+              <label>306 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="306 Remark" name="306 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>307</label>
+              <input type="radio" id="307" name="307" value="DEP" /> DEP
+              <input type="radio" id="307" name="307" value="DS" /> DS
+              <input type="radio" id="307" name="307" value="FS" /> FS
+              <input type="radio" id="307" name="307" value="LS" /> LS
+              <input type="radio" id="307" name="307" value="WS" /> WS
+              <label>/</label>
+              <label>307 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="307 Remark" name="307 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>308</label>
+              <input type="radio" id="308" name="308" value="DEP" /> DEP
+              <input type="radio" id="308" name="308" value="DS" /> DS
+              <input type="radio" id="308" name="308" value="FS" /> FS
+              <input type="radio" id="308" name="308" value="LS" /> LS
+              <input type="radio" id="308" name="308" value="WS" /> WS
+              <label>/</label>
+              <label>308 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="308 Remark" name="308 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>309</label>
+              <input type="radio" id="309" name="309" value="DEP" /> DEP
+              <input type="radio" id="309" name="309" value="DS" /> DS
+              <input type="radio" id="309" name="309" value="FS" /> FS
+              <input type="radio" id="309" name="309" value="LS" /> LS
+              <input type="radio" id="309" name="309" value="WS" /> WS
+              <label>/</label>
+              <label>309 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="309 Remark" name="309 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>310</label>
+              <input type="radio" id="310" name="310" value="DEP" /> DEP
+              <input type="radio" id="310" name="310" value="DS" /> DS
+              <input type="radio" id="310" name="310" value="FS" /> FS
+              <input type="radio" id="310" name="310" value="LS" /> LS
+              <input type="radio" id="310" name="310" value="WS" /> WS
+              <label>/</label>
+              <label>310 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="310 Remark" name="310 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>311</label>
+              <input type="radio" id="311" name="311" value="DEP" /> DEP
+              <input type="radio" id="311" name="311" value="DS" /> DS
+              <input type="radio" id="311" name="311" value="FS" /> FS
+              <input type="radio" id="311" name="311" value="LS" /> LS
+              <input type="radio" id="311" name="311" value="WS" /> WS
+              <label>/</label>
+              <label>311 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="311 Remark" name="311 Remark">
+              <br>
+            </p>
+            
+            <p>
+              <label>312</label>
+              <input type="radio" id="312" name="312" value="DEP" /> DEP
+              <input type="radio" id="312" name="312" value="DS" /> DS
+              <input type="radio" id="312" name="312" value="FS" /> FS
+              <input type="radio" id="312" name="312" value="LS" /> LS
+              <input type="radio" id="312" name="312" value="WS" /> WS
+              <label>/</label>
+              <label>312 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="312 Remark" name="312 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>313</label>
+              <input type="radio" id="313" name="313" value="DEP" /> DEP
+              <input type="radio" id="313" name="313" value="DS" /> DS
+              <input type="radio" id="313" name="313" value="FS" /> FS
+              <input type="radio" id="313" name="313" value="LS" /> LS
+              <input type="radio" id="313" name="313" value="WS" /> WS
+              <label>/</label>
+              <label>313 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="313 Remark" name="313 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>314</label>
+              <input type="radio" id="314" name="314" value="DEP" /> DEP
+              <input type="radio" id="314" name="314" value="DS" /> DS
+              <input type="radio" id="314" name="314" value="FS" /> FS
+              <input type="radio" id="314" name="314" value="LS" /> LS
+              <input type="radio" id="314" name="314" value="WS" /> WS
+              <label>/</label>
+              <label>314 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="314 Remark" name="314 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>315</label>
+              <input type="radio" id="315" name="315" value="DEP" /> DEP
+              <input type="radio" id="315" name="315" value="DS" /> DS
+              <input type="radio" id="315" name="315" value="FS" /> FS
+              <input type="radio" id="315" name="315" value="LS" /> LS
+              <input type="radio" id="315" name="315" value="WS" /> WS
+              <label>/</label>
+              <label>315 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="315 Remark" name="315 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>316</label>
+              <input type="radio" id="316" name="316" value="DEP" /> DEP
+              <input type="radio" id="316" name="316" value="DS" /> DS
+              <input type="radio" id="316" name="316" value="FS" /> FS
+              <input type="radio" id="316" name="316" value="LS" /> LS
+              <input type="radio" id="316" name="316" value="WS" /> WS
+              <label>/</label>
+              <label>316 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="316 Remark" name="316 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>317</label>
+              <input type="radio" id="317" name="317" value="DEP" /> DEP
+              <input type="radio" id="317" name="317" value="DS" /> DS
+              <input type="radio" id="317" name="317" value="FS" /> FS
+              <input type="radio" id="317" name="317" value="LS" /> LS
+              <input type="radio" id="317" name="317" value="WS" /> WS
+              <label>/</label>
+              <label>317 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="317 Remark" name="317 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>318</label>
+              <input type="radio" id="318" name="318" value="DEP" /> DEP
+              <input type="radio" id="318" name="318" value="DS" /> DS
+              <input type="radio" id="318" name="318" value="FS" /> FS
+              <input type="radio" id="318" name="318" value="LS" /> LS
+              <input type="radio" id="318" name="318" value="WS" /> WS
+              <label>/</label>
+              <label>318 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="318 Remark" name="318 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>319</label>
+              <input type="radio" id="319" name="319" value="DEP" /> DEP
+              <input type="radio" id="319" name="319" value="DS" /> DS
+              <input type="radio" id="319" name="319" value="FS" /> FS
+              <input type="radio" id="319" name="319" value="LS" /> LS
+              <input type="radio" id="319" name="319" value="WS" /> WS
+              <label>/</label>
+              <label>319 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="319 Remark" name="319 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>320</label>
+              <input type="radio" id="320" name="320" value="DEP" /> DEP
+              <input type="radio" id="320" name="320" value="DS" /> DS
+              <input type="radio" id="320" name="320" value="FS" /> FS
+              <input type="radio" id="320" name="320" value="LS" /> LS
+              <input type="radio" id="320" name="320" value="WS" /> WS
+              <label>/</label>
+              <label>320 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="320 Remark" name="320 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>321</label>
+              <input type="radio" id="321" name="321" value="DEP" /> DEP
+              <input type="radio" id="321" name="321" value="DS" /> DS
+              <input type="radio" id="321" name="321" value="FS" /> FS
+              <input type="radio" id="321" name="321" value="LS" /> LS
+              <input type="radio" id="321" name="321" value="WS" /> WS
+              <label>/</label>
+              <label>321 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="321 Remark" name="321 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>322</label>
+              <input type="radio" id="322" name="322" value="DEP" /> DEP
+              <input type="radio" id="322" name="322" value="DS" /> DS
+              <input type="radio" id="322" name="322" value="FS" /> FS
+              <input type="radio" id="322" name="322" value="LS" /> LS
+              <input type="radio" id="322" name="322" value="WS" /> WS
+              <label>/</label>
+              <label>322 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="322 Remark" name="322 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>323</label>
+              <input type="radio" id="323" name="323" value="DEP" /> DEP
+              <input type="radio" id="323" name="323" value="DS" /> DS
+              <input type="radio" id="323" name="323" value="FS" /> FS
+              <input type="radio" id="323" name="323" value="LS" /> LS
+              <input type="radio" id="323" name="323" value="WS" /> WS
+              <label>/</label>
+              <label>323 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="323 Remark" name="323 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>324</label>
+              <input type="radio" id="324" name="324" value="DEP" /> DEP
+              <input type="radio" id="324" name="324" value="DS" /> DS
+              <input type="radio" id="324" name="324" value="FS" /> FS
+              <input type="radio" id="324" name="324" value="LS" /> LS
+              <input type="radio" id="324" name="324" value="WS" /> WS
+              <label>/</label>
+              <label>324 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="324 Remark" name="324 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>325</label>
+              <input type="radio" id="325" name="325" value="DEP" /> DEP
+              <input type="radio" id="325" name="325" value="DS" /> DS
+              <input type="radio" id="325" name="325" value="FS" /> FS
+              <input type="radio" id="325" name="325" value="LS" /> LS
+              <input type="radio" id="325" name="325" value="WS" /> WS
+              <label>/</label>
+              <label>325 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="325 Remark" name="325 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>326</label>
+              <input type="radio" id="326" name="326" value="DEP" /> DEP
+              <input type="radio" id="326" name="326" value="DS" /> DS
+              <input type="radio" id="326" name="326" value="FS" /> FS
+              <input type="radio" id="326" name="326" value="LS" /> LS
+              <input type="radio" id="326" name="326" value="WS" /> WS
+              <label>/</label>
+              <label>326 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="326 Remark" name="326 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>327</label>
+              <input type="radio" id="327" name="327" value="DEP" /> DEP
+              <input type="radio" id="327" name="327" value="DS" /> DS
+              <input type="radio" id="327" name="327" value="FS" /> FS
+              <input type="radio" id="327" name="327" value="LS" /> LS
+              <input type="radio" id="327" name="327" value="WS" /> WS
+              <label>/</label>
+              <label>327 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="327 Remark" name="327 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>328</label>
+              <input type="radio" id="328" name="328" value="DEP" /> DEP
+              <input type="radio" id="328" name="328" value="DS" /> DS
+              <input type="radio" id="328" name="328" value="FS" /> FS
+              <input type="radio" id="328" name="328" value="LS" /> LS
+              <input type="radio" id="328" name="328" value="WS" /> WS
+              <label>/</label>
+              <label>328 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="328 Remark" name="328 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>329</label>
+              <input type="radio" id="329" name="329" value="DEP" /> DEP
+              <input type="radio" id="329" name="329" value="DS" /> DS
+              <input type="radio" id="329" name="329" value="FS" /> FS
+              <input type="radio" id="329" name="329" value="LS" /> LS
+              <input type="radio" id="329" name="329" value="WS" /> WS
+              <label>/</label>
+              <label>329 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="329 Remark" name="329 Remark">
+              <br>
+            </p>
+
+            <h1>Next Level</h1>
+
+            <p>
+              <label>401</label>
+              <input type="radio" id="401" name="401" value="DEP" /> DEP
+              <input type="radio" id="401" name="401" value="DS" /> DS
+              <input type="radio" id="401" name="401" value="FS" /> FS
+              <input type="radio" id="401" name="401" value="LS" /> LS
+              <input type="radio" id="401" name="401" value="WS" /> WS
+              <label>/</label>
+              <label>401 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="401 Remark" name="401 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>402</label>
+              <input type="radio" id="402" name="402" value="DEP" /> DEP
+              <input type="radio" id="402" name="402" value="DS" /> DS
+              <input type="radio" id="402" name="402" value="FS" /> FS
+              <input type="radio" id="402" name="402" value="LS" /> LS
+              <input type="radio" id="402" name="402" value="WS" /> WS
+              <label>/</label>
+              <label>402 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="402 Remark" name="402 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>403</label>
+              <input type="radio" id="403" name="403" value="DEP" /> DEP
+              <input type="radio" id="403" name="403" value="DS" /> DS
+              <input type="radio" id="403" name="403" value="FS" /> FS
+              <input type="radio" id="403" name="403" value="LS" /> LS
+              <input type="radio" id="403" name="403" value="WS" /> WS
+              <label>/</label>
+              <label>403 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="403 Remark" name="403 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>404</label>
+              <input type="radio" id="404" name="404" value="DEP" /> DEP
+              <input type="radio" id="404" name="404" value="DS" /> DS
+              <input type="radio" id="404" name="404" value="FS" /> FS
+              <input type="radio" id="404" name="404" value="LS" /> LS
+              <input type="radio" id="404" name="404" value="WS" /> WS
+              <label>/</label>
+              <label>404 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="404 Remark" name="404 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>405</label>
+              <input type="radio" id="405" name="405" value="DEP" /> DEP
+              <input type="radio" id="405" name="405" value="DS" /> DS
+              <input type="radio" id="405" name="405" value="FS" /> FS
+              <input type="radio" id="405" name="405" value="LS" /> LS
+              <input type="radio" id="405" name="405" value="WS" /> WS
+              <label>/</label>
+              <label>405 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="405 Remark" name="405 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>406</label>
+              <input type="radio" id="406" name="406" value="DEP" /> DEP
+              <input type="radio" id="406" name="406" value="DS" /> DS
+              <input type="radio" id="406" name="406" value="FS" /> FS
+              <input type="radio" id="406" name="406" value="LS" /> LS
+              <input type="radio" id="406" name="406" value="WS" /> WS
+              <label>/</label>
+              <label>406 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="406 Remark" name="406 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>407</label>
+              <input type="radio" id="407" name="407" value="DEP" /> DEP
+              <input type="radio" id="407" name="407" value="DS" /> DS
+              <input type="radio" id="407" name="407" value="FS" /> FS
+              <input type="radio" id="407" name="407" value="LS" /> LS
+              <input type="radio" id="407" name="407" value="WS" /> WS
+              <label>/</label>
+              <label>407 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="407 Remark" name="407 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>408</label>
+              <input type="radio" id="408" name="408" value="DEP" /> DEP
+              <input type="radio" id="408" name="408" value="DS" /> DS
+              <input type="radio" id="408" name="408" value="FS" /> FS
+              <input type="radio" id="408" name="408" value="LS" /> LS
+              <input type="radio" id="408" name="408" value="WS" /> WS
+              <label>/</label>
+              <label>408 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="408 Remark" name="408 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>409</label>
+              <input type="radio" id="409" name="409" value="DEP" /> DEP
+              <input type="radio" id="409" name="409" value="DS" /> DS
+              <input type="radio" id="409" name="409" value="FS" /> FS
+              <input type="radio" id="409" name="409" value="LS" /> LS
+              <input type="radio" id="409" name="409" value="WS" /> WS
+              <label>/</label>
+              <label>409 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="409 Remark" name="409 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>410</label>
+              <input type="radio" id="410" name="410" value="DEP" /> DEP
+              <input type="radio" id="410" name="410" value="DS" /> DS
+              <input type="radio" id="410" name="410" value="FS" /> FS
+              <input type="radio" id="410" name="410" value="LS" /> LS
+              <input type="radio" id="410" name="410" value="WS" /> WS
+              <label>/</label>
+              <label>410 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="410 Remark" name="410 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>411</label>
+              <input type="radio" id="411" name="411" value="DEP" /> DEP
+              <input type="radio" id="411" name="411" value="DS" /> DS
+              <input type="radio" id="411" name="411" value="FS" /> FS
+              <input type="radio" id="411" name="411" value="LS" /> LS
+              <input type="radio" id="411" name="411" value="WS" /> WS
+              <label>/</label>
+              <label>411 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="411 Remark" name="411 Remark">
+              <br>
+            </p>
+            
+            <p>
+              <label>412</label>
+              <input type="radio" id="412" name="412" value="DEP" /> DEP
+              <input type="radio" id="412" name="412" value="DS" /> DS
+              <input type="radio" id="412" name="412" value="FS" /> FS
+              <input type="radio" id="412" name="412" value="LS" /> LS
+              <input type="radio" id="412" name="412" value="WS" /> WS
+              <label>/</label>
+              <label>412 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="412 Remark" name="412 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>413</label>
+              <input type="radio" id="413" name="413" value="DEP" /> DEP
+              <input type="radio" id="413" name="413" value="DS" /> DS
+              <input type="radio" id="413" name="413" value="FS" /> FS
+              <input type="radio" id="413" name="413" value="LS" /> LS
+              <input type="radio" id="413" name="413" value="WS" /> WS
+              <label>/</label>
+              <label>413 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="413 Remark" name="413 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>414</label>
+              <input type="radio" id="414" name="414" value="DEP" /> DEP
+              <input type="radio" id="414" name="414" value="DS" /> DS
+              <input type="radio" id="414" name="414" value="FS" /> FS
+              <input type="radio" id="414" name="414" value="LS" /> LS
+              <input type="radio" id="414" name="414" value="WS" /> WS
+              <label>/</label>
+              <label>414 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="414 Remark" name="414 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>415</label>
+              <input type="radio" id="415" name="415" value="DEP" /> DEP
+              <input type="radio" id="415" name="415" value="DS" /> DS
+              <input type="radio" id="415" name="415" value="FS" /> FS
+              <input type="radio" id="415" name="415" value="LS" /> LS
+              <input type="radio" id="415" name="415" value="WS" /> WS
+              <label>/</label>
+              <label>415 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="415 Remark" name="415 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>416</label>
+              <input type="radio" id="416" name="416" value="DEP" /> DEP
+              <input type="radio" id="416" name="416" value="DS" /> DS
+              <input type="radio" id="416" name="416" value="FS" /> FS
+              <input type="radio" id="416" name="416" value="LS" /> LS
+              <input type="radio" id="416" name="416" value="WS" /> WS
+              <label>/</label>
+              <label>416 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="416 Remark" name="416 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>417</label>
+              <input type="radio" id="417" name="417" value="DEP" /> DEP
+              <input type="radio" id="417" name="417" value="DS" /> DS
+              <input type="radio" id="417" name="417" value="FS" /> FS
+              <input type="radio" id="417" name="417" value="LS" /> LS
+              <input type="radio" id="417" name="417" value="WS" /> WS
+              <label>/</label>
+              <label>417 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="417 Remark" name="417 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>418</label>
+              <input type="radio" id="418" name="418" value="DEP" /> DEP
+              <input type="radio" id="418" name="418" value="DS" /> DS
+              <input type="radio" id="418" name="418" value="FS" /> FS
+              <input type="radio" id="418" name="418" value="LS" /> LS
+              <input type="radio" id="418" name="418" value="WS" /> WS
+              <label>/</label>
+              <label>418 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="418 Remark" name="418 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>419</label>
+              <input type="radio" id="419" name="419" value="DEP" /> DEP
+              <input type="radio" id="419" name="419" value="DS" /> DS
+              <input type="radio" id="419" name="419" value="FS" /> FS
+              <input type="radio" id="419" name="419" value="LS" /> LS
+              <input type="radio" id="419" name="419" value="WS" /> WS
+              <label>/</label>
+              <label>419 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="419 Remark" name="419 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>420</label>
+              <input type="radio" id="420" name="420" value="DEP" /> DEP
+              <input type="radio" id="420" name="420" value="DS" /> DS
+              <input type="radio" id="420" name="420" value="FS" /> FS
+              <input type="radio" id="420" name="420" value="LS" /> LS
+              <input type="radio" id="420" name="420" value="WS" /> WS
+              <label>/</label>
+              <label>420 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="420 Remark" name="420 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>421</label>
+              <input type="radio" id="421" name="421" value="DEP" /> DEP
+              <input type="radio" id="421" name="421" value="DS" /> DS
+              <input type="radio" id="421" name="421" value="FS" /> FS
+              <input type="radio" id="421" name="421" value="LS" /> LS
+              <input type="radio" id="421" name="421" value="WS" /> WS
+              <label>/</label>
+              <label>421 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="421 Remark" name="421 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>422</label>
+              <input type="radio" id="422" name="422" value="DEP" /> DEP
+              <input type="radio" id="422" name="422" value="DS" /> DS
+              <input type="radio" id="422" name="422" value="FS" /> FS
+              <input type="radio" id="422" name="422" value="LS" /> LS
+              <input type="radio" id="422" name="422" value="WS" /> WS
+              <label>/</label>
+              <label>422 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="422 Remark" name="422 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>423</label>
+              <input type="radio" id="423" name="423" value="DEP" /> DEP
+              <input type="radio" id="423" name="423" value="DS" /> DS
+              <input type="radio" id="423" name="423" value="FS" /> FS
+              <input type="radio" id="423" name="423" value="LS" /> LS
+              <input type="radio" id="423" name="423" value="WS" /> WS
+              <label>/</label>
+              <label>423 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="423 Remark" name="423 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>424</label>
+              <input type="radio" id="424" name="424" value="DEP" /> DEP
+              <input type="radio" id="424" name="424" value="DS" /> DS
+              <input type="radio" id="424" name="424" value="FS" /> FS
+              <input type="radio" id="424" name="424" value="LS" /> LS
+              <input type="radio" id="424" name="424" value="WS" /> WS
+              <label>/</label>
+              <label>424 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="424 Remark" name="424 Remark">
+              <br>
+            </p>
+
+            <p>
+              <label>425</label>
+              <input type="radio" id="425" name="425" value="DEP" /> DEP
+              <input type="radio" id="425" name="425" value="DS" /> DS
+              <input type="radio" id="425" name="425" value="FS" /> FS
+              <input type="radio" id="425" name="425" value="LS" /> LS
+              <input type="radio" id="425" name="425" value="WS" /> WS
+              <label>/</label>
+              <label>425 Remark</label>
+              &nbsp;
+              <input class="mywidth" id="425 Remark" name="425 Remark">
+              <br>
+            </p>
+
+
+</form>
+
+  <button onclick="SubForm()">Submit</button>
+</body>
